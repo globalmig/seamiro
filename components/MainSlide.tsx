@@ -38,10 +38,10 @@ export default function MainSlide() {
           <div className="pc"><Image src="/images/banner_2.jpg" alt="image" width={1366} height={1025} /></div>
           <div className="mo"><Image src="/images/banner_2_mo.jpg" alt="image" width={360} height={500} /></div>
         </div>
-        <div className="slider-item">
+        {/* <div className="slider-item">
           <div className="pc"><Image src="/images/banner_2.jpg" alt="image" width={1366} height={1025} /></div>
           <div className="mo"><Image src="/images/banner_2_mo.jpg" alt="image" width={360} height={500} /></div>
-        </div>
+        </div> */}
       </Slider>
     </div>
   );

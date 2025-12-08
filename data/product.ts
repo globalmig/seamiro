@@ -172,7 +172,7 @@ export const PRODUCT = [
             { icon: "/icons/special_haccp.png", content: "HACCP 인증 위생시설 생산" },
             { icon: "/icons/special_radish.png", content: "깨끗하게 선별된 국내산 무 사용" },
             { icon: "/icons/special_noodle.png", content: "새콤달콤한 절임액으로 냉면, 비빔면, 막국수 등과 완벽 조화" },
-            { icon: "/icons/size3.png", content: "얇고 균일한 절단으로 식감 우수" },
+            { icon: "/icons/special_size3.png", content: "얇고 균일한 절단으로 식감 우수" },
         ],
         type: "절임식품",
         content: "2.6kg/pk, 2.6kgx4pk/box",

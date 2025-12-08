@@ -31,7 +31,6 @@ const MenuSlide = forwardRef<SlideHandle>((_, ref) => {
         width < 992 ? 3 :
         width < 1200 ? 3 : 4,
       slidesToScroll: 1,
-      centerMode: width < 576,
       responsive: [
         {
           breakpoint: 1200,

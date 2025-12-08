@@ -215,11 +215,11 @@ nav>ul>li>ul li a:hover {
   overflow: hidden;
   opacity: 0;
   transform: translateY(-6px);
-  transition: 0.8s
+  transition: all 0.8s ease
 }
 
 .submenu.sub-open {
-  max-height: 500px;
+  max-height: 700px;
   opacity: 1;
   transform: translateY(0);
 }
@@ -295,7 +295,7 @@ footer>:first-child>div>ul {
 
 footer>:first-child>div>ul li {
   width: auto;
-  margin: 8px 0;
+  margin: 3px 0;
   font-size: 0.9rem;
 }
 

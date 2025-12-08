@@ -34,8 +34,8 @@ export default function Menu({ openSitemap, openMenu, setOpenSitemap, setOpenMen
                                         <Image
                                             src="/icons/nav_sub.png"
                                             alt="서브메뉴 열기"
-                                            width={22}
-                                            height={12}
+                                            width={75}
+                                            height={34}
                                         />
                                     </div>
                                 </>

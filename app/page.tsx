@@ -15,7 +15,7 @@ export default function Home() {
         <div>
           <div className="display-left">
             <h3>세미로 대표 메뉴</h3>
-            <Image src="/icons/leaf.png" alt="나뭇잎이미지" width={52} height={32} />
+            {/* <Image src="/icons/leaf.png" alt="나뭇잎이미지" width={52} height={32} /> */}
           </div>
           <div>
             <MenuSlide ref={slideRef}/>
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="display-flex-flow">
             <div className="display-flex">
               <div>
-                <Image src="/icons/haccp.png" alt="haccp 인증" width={152} height={152} />
+                <Image src="/icons/haccp.png" alt="haccp 인증" width={360} height={363} />
               </div>
               <div>
                 <h3>서울 안전 인증 관리 기준<br />HACCP으로 더욱 안전하게 만듭니다.</h3>
@@ -42,7 +42,7 @@ export default function Home() {
               <h3>세미로 고객센터</h3>
               <div className="display-left">
                 <div>
-                  <Image src="/icons/tel.png" alt="전화 아이콘" width={68} height={68} />
+                  <Image src="/icons/tel.png" alt="전화 아이콘" width={202} height={202} />
                 </div>
                 <ul>
                   <li>TEL.032-812-2268</li>
