@@ -60,6 +60,7 @@ export default function Header() {
                     </div>
                 </div>
             </header>
+            <div className="white-bg" style={{display: openMenu ? "block" : "none"}}></div>
         </>
     )
 }
