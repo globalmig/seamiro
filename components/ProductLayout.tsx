@@ -45,7 +45,7 @@ export default function ProductLayout() {
                         {product?.special.map((p) =>
                             <section key={p.content}>
                                 <div>
-                                    <Image src={p.icon} alt={p.content} width={100} height={100} />
+                                    <Image src={p.icon} alt={p.content} width={180} height={180} />
                                 </div>
                                 <p>{p.content}</p>
                             </section>

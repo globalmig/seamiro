@@ -1,4 +1,4 @@
-.main,
+main, .main,
 .main-slider {
     position: relative;
 }
@@ -23,7 +23,7 @@
     color: #4FAE30 !important;
 }
 
-.main .main-title {
+.main-title {
     z-index: 1;
     position: absolute;
     top: 45%;
@@ -35,13 +35,13 @@
     width: 90%;
 }
 
-.main .main-title img {
+.main-title >div>img {
     width: 150px;
     height: auto;
     margin: auto;
 }
 
-.main .main-title h3 {
+.main-title> h3 {
     font-size: 1.5rem;
     font-family: 'SB_L';
     margin: 20px 0 0;
@@ -532,11 +532,11 @@ main>div>div img {
         display: block;
     }
 
-    .main .main-title img {
+    .main-title img {
         width: 180px;
     }
 
-    .main .main-title h3 {
+    .main-title h3 {
         font-size: 2rem;
         margin: 25px 0 0px;
     }
@@ -574,6 +574,10 @@ main>div>div img {
 
     .home>div>:last-child>div {
         padding: 30px;
+    }
+
+    .home>div>:last-child>div:first-of-type {
+        padding: 45px 20px;
     }
 
     .home>div>:last-child> :first-child {

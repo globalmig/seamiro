@@ -263,7 +263,8 @@ nav>ul>li>ul li a:hover {
 
 .special>div>:last-child section img {
   margin: auto;
-  padding: 10px;
+  width: 80px;
+  height: auto;
 }
 
 .special>div>:last-child section p {
@@ -390,11 +391,8 @@ footer>:last-child {
   }
 
   .special>div>:last-child section img {
-    width: 120px;
-    height: auto;
-    margin: auto;
-    padding: 5px;
-  }
+   width: 120px;
+}
 
   .special>div>:last-child section p {
     margin: 15px auto 0;

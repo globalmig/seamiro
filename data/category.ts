@@ -21,7 +21,7 @@ export const CATEGORY_MAP: { [key: string]: { title: string; categories?: { name
             { name: "쌈무 와사비 맛", url: "wasabi-radish", banner: "/images/banner_product_쌈무와사비.jpg" },
             { name: "초절임 무", url: "pickled-vinegar", banner: "/images/banner_product_초절임무.jpg" },
             { name: "한입 단무지", url: "one-pickled-radish", banner: "/images/banner_product_한입.jpg" },
-            { name: "두입 단무지", url: "two-pickled-radish", banner: "/images/banner_product_한입.jpg" },
+            { name: "두입 단무지", url: "two-pickled-radish", banner: "/images/banner_product_두입.jpg" },
         ],
     },
     technology: {
