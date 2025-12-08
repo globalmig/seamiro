@@ -12,11 +12,12 @@ export interface SlideHandle {
 
 const MenuSlide = forwardRef<SlideHandle>((_, ref) => {
   const sliderRef = useRef<Slider>(null);
-  
-  const [settings] = useState<Settings>(() => {
+  const [settings, setSettings] = useState<Settings | null>(null);
+
+  useEffect(()=> {
     const width = window.innerWidth;
 
-    return {
+    setSettings ({
       dots: false,
       infinite: true,
       arrows: false,
@@ -45,14 +46,16 @@ const MenuSlide = forwardRef<SlideHandle>((_, ref) => {
           settings: { slidesToShow: 1 },
         },
       ],
-    };
-  });
+    });
+  },[])
 
   useImperativeHandle(ref, () => ({
     next: () => sliderRef.current?.slickNext(),
     prev: () => sliderRef.current?.slickPrev(),
   }));
 
+  if (!settings) return null;
+  
   return (
     <Slider ref={sliderRef} {...settings} className="menu-slider">
       {PRODUCT.map((p) =>
