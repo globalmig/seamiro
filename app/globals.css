@@ -307,16 +307,15 @@ footer>:first-child>div>ul {
 
 footer>:first-child>div>ul li {
   width: auto;
-  margin: 3px 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
-footer>:first-child>div>ul li:first-of-type {
+footer>:first-child>div>ul > li:first-of-type {
   position: relative;
   padding-right: 10px;
 }
 
-footer>:first-child>div>ul li:first-of-type:after {
+footer>:first-child>div>ul >li:first-of-type:after {
   content: '';
   position: absolute;
   top: 50%;
@@ -327,9 +326,17 @@ footer>:first-child>div>ul li:first-of-type:after {
   background-color: #ccc;
 }
 
-footer>:first-child>div>ul li:first-of-type {
+footer>:first-child>div>ul> li:first-of-type {
   padding-right: 15px;
   border-right: #ccc;
+}
+
+footer>:first-child>div>ul >div{
+  width: 100%;
+}
+
+footer>:first-child>div>p {
+  font-size: 0.8rem;
 }
 
 footer>:last-child {
@@ -420,6 +427,10 @@ footer>:last-child {
 
   footer>:first-child>div>ul li {
     font-size: 0.9rem;
+  }
+
+  footer>:first-child>div>ul li span.pc {
+    display: block;
   }
 
   footer>:last-child {
@@ -624,16 +635,16 @@ footer>:last-child {
 
   footer>:first-child>div>ul {
     width: 70%;
-    margin: 0 0 40px;
+    margin: 0 0 30px;
   }
 
   footer>:first-child>div>ul li {
     position: relative;
     padding-right: 10px;
-    margin: 0;
+    margin: 3px 0;
   }
 
-  footer>:first-child>div>ul li:not(footer>:first-child>div>ul li:nth-of-type(4), footer>:first-child>div>ul li:last-of-type)::after {
+  footer>:first-child>div>ul li.line::after {
     content: '';
     position: absolute;
     top: 50%;

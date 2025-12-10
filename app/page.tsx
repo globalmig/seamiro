@@ -45,11 +45,14 @@ export default function Home() {
                   <Image src="/icons/tel.png" alt="전화 아이콘" width={202} height={202} />
                 </div>
                 <ul>
-                  <li>TEL.032-812-2268</li>
-                  <li>FAX.032-812-2267</li>
+                  <li><span>1공장 파주.</span> 031-942-2268</li>
+                  <li><span>2공장 인천.</span> 032-812-2268</li>
                 </ul>
               </div>
-              <p>주소. 인천광역시 남동구 남동서로 83번길 70</p>
+              <ul>
+                  <li>팩스. 032-812-2267</li>
+                  <li>주소. 인천광역시 남동구 남동서로 83번길 70</li>
+              </ul>
             </div>
           </div>
         </div>

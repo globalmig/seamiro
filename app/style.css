@@ -1,4 +1,5 @@
-main, .main,
+main,
+.main,
 .main-slider {
     position: relative;
 }
@@ -35,13 +36,13 @@ main, .main,
     width: 90%;
 }
 
-.main-title >div>img {
+.main-title>div>img {
     width: 150px;
     height: auto;
     margin: auto;
 }
 
-.main-title> h3 {
+.main-title>h3 {
     font-size: 1.5rem;
     font-family: 'SB_L';
     margin: 20px 0 0;
@@ -170,18 +171,26 @@ main>div>div img {
     height: auto;
 }
 
-.home>div>:last-child>:last-child ul li:first-of-type {
-    font-size: 1.1rem;
+.home>div>:last-child>:last-child>div>ul {
+    margin: auto 0;
 }
 
-.home>div>:last-child>:last-child ul li {
-    font-size: 0.9rem;
-    margin: 5px 0;
+.home>div>:last-child>:last-child>div>ul li {
+    margin: 3px 0;
 }
 
-.home>div>:last-child>:last-child p {
+.home>div>:last-child>:last-child>div>ul li span {
+    font-size: 1rem;
+}
+
+.home>div>:last-child>:last-child>ul {
+    margin-top: 15px;
+    padding: 0 10px;
+}
+
+.home>div>:last-child>:last-child>ul li {
     font-size: 0.8rem;
-    margin-top: 12px;
+    margin: 5px 0;
 }
 
 /* business */
@@ -620,14 +629,22 @@ main>div>div img {
         height: auto;
     }
 
-    .home>div>:last-child>:last-child ul li {
-        font-size: 1rem;
-        margin: 8px 0;
+    .home>div>:last-child>:last-child>div>ul li {
+        margin: 5px 0;
     }
 
-    .home>div>:last-child>:last-child p {
+    .home>div>:last-child>:last-child>div>ul li span {
+        font-size: 1.2rem;
+    }
+
+    .home>div>:last-child>:last-child>ul {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    .home>div>:last-child>:last-child>ul li {
         font-size: 1rem;
-        margin-top: 12px;
+        margin: 5px 0;
     }
 
     /* business */
@@ -871,21 +888,21 @@ main>div>div img {
         padding: 20px 30px;
     }
 
-    .home>div>:last-child>:last-child ul li:first-of-type {
-        font-size: 1.5rem;
-    }
-
     .home>div>:last-child>:last-child h3 {
         font-size: 1.5rem;
     }
 
-    .home>div>:last-child>:last-child ul li {
-        font-size: 1.1em;
+    .home>div>:last-child>:last-child>div>ul li {
+        margin: 3px 0;
     }
 
-    .home>div>:last-child>:last-child p {
-        font-size: 1.1rem;
-        margin-top: 12px;
+    .home>div>:last-child>:last-child>div>ul li span {
+        font-size: 1.3rem;
+    }
+
+    .home>div>:last-child>:last-child>ul {
+        margin-top: 15px;
+        padding: 0 10px;
     }
 
     /* business */
