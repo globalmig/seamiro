@@ -231,7 +231,7 @@ nav>ul>li>ul li a:hover {
 }
 
 .submenu.sub-open {
-  max-height: 700px;
+  max-height: 750px;
   opacity: 1;
   transform: translateY(0);
 }
