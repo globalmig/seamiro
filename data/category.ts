@@ -29,7 +29,6 @@ export const CATEGORY_MAP: { [key: string]: { title: string; categories?: { name
     technology: {
         title: '기술현황',
         categories: [
-            //{ name: "생산시설 소개", url: "facility", banner: "/images/banner_facility.jpg", mo_banner: "/images/banner_facility_mo.jpg" },
             { name: "생산 프로세스", url: "process", banner: "/images/banner_process.jpg" },
         ],
     },
