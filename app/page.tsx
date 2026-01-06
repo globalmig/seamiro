@@ -13,9 +13,8 @@ export default function Home() {
       <MainSlide/>
       <article className="home">
         <div>
-          <div className="display-left">
-            <h3>세미로 대표 메뉴</h3>
-            {/* <Image src="/icons/leaf.png" alt="나뭇잎이미지" width={52} height={32} /> */}
+          <div>
+            <h1>세미로 대표 메뉴</h1>
           </div>
           <div>
             <MenuSlide ref={slideRef}/>

@@ -22,7 +22,7 @@ export default function CategoryBanner() {
                                 <div>
                                     <Image src="/icons/logo.png" alt="로고" width={317} height={202} />
                                 </div>
-                                <h3>“자연 그대로 언제나 변함없이”</h3>
+                                <h1>“자연 그대로 언제나 변함없이”</h1>
                             </div>
                 }
                 <div>

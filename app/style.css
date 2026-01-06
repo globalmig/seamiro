@@ -42,7 +42,7 @@ main,
     margin: auto;
 }
 
-.main-title>h3 {
+.main-title>h1 {
     font-size: 1.5rem;
     font-family: 'SB_L';
     margin: 20px 0 0;
@@ -73,6 +73,10 @@ main>div>div img {
 
 .home>div>:first-child {
     margin-bottom: 20px;
+}
+
+.home>div>:first-child h1 {
+    font-size: 1.2rem;
 }
 
 .home>div>:first-child img {
@@ -545,7 +549,7 @@ main>div>div img {
         width: 180px;
     }
 
-    .main-title h3 {
+    .main-title h1 {
         font-size: 2rem;
         margin: 25px 0 0px;
     }
@@ -560,6 +564,10 @@ main>div>div img {
     .home>div>:first-child {
         margin-bottom: 40px;
     }
+
+    .home>div>:first-child h1 {
+    font-size: 1.5rem;
+}
 
     .home>div>:first-child img {
         width: 30px;
