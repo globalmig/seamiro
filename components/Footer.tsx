@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <div>
                 <div>
-                    <Image src="/icons/logo_white.png" alt="로고" width={317} height={202} />
+                    <Image src="/icons/logo_white.png" alt="김밥 단무지 제조 전문 세미로" width={317} height={202} />
                 </div>
                 <div>
                     <ul className="display-flex-flow">
@@ -20,8 +20,6 @@ export default function Footer() {
                             <li>2공장 인천: 인천광역시 남동구 남동서로 83번길 70</li>
                             <li>대표전화: 032-812-2268</li>
                         </div>
-                        {/* <li>TEL 1: 032-812-2268</li>
-                        <li>TEL 2: 031-942-2268</li> */}
                         <li className="line">팩스: 032-812-2267</li>
                         <li>이메일: seamiro168@naver.com</li>
                     </ul>

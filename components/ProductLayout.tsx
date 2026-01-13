@@ -45,7 +45,7 @@ export default function ProductLayout() {
                         {product?.special.map((p) =>
                             <section key={p.content}>
                                 <div>
-                                    <Image src={p.icon} alt={p.content} width={180} height={180} />
+                                    <Image src={p.icon} alt={product.title} width={180} height={180} />
                                 </div>
                                 <p>{p.content}</p>
                             </section>
@@ -55,12 +55,8 @@ export default function ProductLayout() {
             </div>
             <article className="product">
                 <div>
-                    {/* <div className="display-left">
-                        <h3>상품 상세 내용</h3>
-                        <Image src="/icons/leaf.png" alt="나뭇잎이미지" width={52} height={32} />
-                    </div> */}
                     <div>
-                        <Image src="/icons/logo.png" alt="로고" width={317} height={202} />
+                        <Image src="/icons/logo.png" alt="김밥 단무지 제조 전문 세미로" width={317} height={202} />
                     </div>
                     <div className="display-flex-flow">
                         <div>

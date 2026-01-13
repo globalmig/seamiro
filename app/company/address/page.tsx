@@ -7,12 +7,8 @@ export default function AddressPage() {
         <CategoryBanner/>
         <article className="address">
             <div>
-                {/*<div className="display-left">
-                    <h3>세미로 오시는 길</h3>
-                    <Image src="/icons/leaf.png" alt="나뭇잎이미지" width={52} height={32} />
-                </div>*/}
                 <div>
-                    <Image src="/icons/logo.png" alt="로고" width={317} height={202} />
+                    <Image src="/icons/logo.png" alt="김밥 단무지 제조 전문 세미로" width={317} height={202} />
                 </div>
                 <section>
                     <section>
@@ -25,12 +21,12 @@ export default function AddressPage() {
                     </section>
                     <div className="display-flex">
                         <div>
-                            <Image src="/icons/location.png" alt="오시는 길 아이콘" width={18} height={26} />
+                            <Image src="/icons/location.png" alt="오시는 길" width={18} height={26} />
                         </div>
                         <p>설문IC주유소→ 세미로(2분거리)를 검색하시고 찾아오시면 넓은 길로 들어올 수 있습니다.</p>
                     </div>
                     <div>
-                        <Image src="/images/address_파주.png" alt="오시는 길 지도" width={1400} height={814} />
+                        <Image src="/images/address_파주.png" alt="오시는 길" width={1400} height={814} />
                     </div>
                 </section>
                 <section>
@@ -43,7 +39,7 @@ export default function AddressPage() {
                         </ul>
                     </section>
                     <div>
-                        <Image src="/images/address_인천.png" alt="오시는 길 지도" width={1400} height={814} />
+                        <Image src="/images/address_인천.png" alt="오시는 길" width={1400} height={814} />
                     </div>
                 </section>
             </div>

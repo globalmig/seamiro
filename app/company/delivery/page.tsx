@@ -50,7 +50,7 @@ export default function DeliveryPage() {
                         <div className="display-flex-flow">
                             <section>
                                 <div>
-                                    <Image src="/icons/foodist_logo.png" alt="푸디스트 로고" width={329} height={151}/>
+                                    <Image src="/icons/foodist_logo.png" alt="푸디스트 납품" width={329} height={151}/>
                                 </div>
                                 <div>
                                     <p>푸디스트</p>
@@ -58,7 +58,7 @@ export default function DeliveryPage() {
                             </section>
                             <section>
                                 <div>
-                                    <Image src="/icons/spc_logo.png" alt="SPC 로고" width={772} height={238}/>
+                                    <Image src="/icons/spc_logo.png" alt="SPC 납품" width={772} height={238}/>
                                 </div>
                                 <div>
                                     <p>SPC</p>
@@ -66,7 +66,7 @@ export default function DeliveryPage() {
                             </section>
                             <section>
                                 <div>
-                                    <Image src="/icons/cj_logo.png" alt="CJ 프레시원 로고" width={342} height={118}/>
+                                    <Image src="/icons/cj_logo.png" alt="CJ 프레시원 납품" width={342} height={118}/>
                                 </div>
                                 <div>
                                     <p>CJ 프레시원</p>

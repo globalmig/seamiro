@@ -25,7 +25,7 @@ export default function Header() {
                     <div className="display-flex">
                         <div>
                             <Link href='/'>
-                                <Image src="/icons/logo.png" alt="홈으로" width={317} height={202} />
+                                <Image src="/icons/logo.png" alt="김밥 단무지 제조 전문 세미로" width={317} height={202} />
                             </Link>
                         </div>
                         <Menu openSitemap={openSitemap}
@@ -34,7 +34,7 @@ export default function Header() {
                             setOpenMenu={setOpenMenu}
                         />
                         <div className="mo" onClick={() => setOpenMenu(true)}>
-                            <Image src="/icons/nav.png" alt="메뉴열기" width={35} height={29} />
+                            <Image src="/icons/nav.png" alt="메뉴 열기" width={35} height={29} />
                         </div>
                         <ul className="pc-flex">
                             {Object.entries(CATEGORY_MAP).map(([key, c]) => {

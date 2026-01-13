@@ -41,7 +41,7 @@ export default function Home() {
               <h3>세미로 고객센터</h3>
               <div className="display-left">
                 <div>
-                  <Image src="/icons/tel.png" alt="전화 아이콘" width={202} height={202} />
+                  <Image src="/icons/tel.png" alt="세미로 문의: 032-812-2268" width={202} height={202} />
                 </div>
                 <ul>
                   <li><span>1공장 파주.</span> 031-942-2268</li>

@@ -9,7 +9,7 @@ export default function BusinessPage() {
         <div>
           <div>
             <div>
-              <Image src="/icons/logo.png" alt="로고" width={317} height={202} />
+              <Image src="/icons/logo.png" alt="김밥 단무지 제조 전문 세미로" width={317} height={202} />
             </div>
             <p>
               세미로는 순우리 말 뜻처럼 <span>“자연 그대로 언제나 변함없이”</span> 엄선된 원재료를 사용하여 건강한 식품을 제조합니다. 6차례의 세척, 선별, 공정을 거친 철저한 위생관리로 소비자의 건강과 안전을 최우선으로 생각하는 기업입니다. 자연의 건강함을 그대로 담은 세미로의 식품으로 전세계에 K-FOOD의 우수함을 전하고자합니다.
