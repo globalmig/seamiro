@@ -14,7 +14,7 @@ export default function Home() {
       <article className="home">
         <div>
           <div>
-            <h1>세미로 대표 메뉴</h1>
+            <h2>세미로 대표 메뉴</h2>
           </div>
           <div>
             <MenuSlide ref={slideRef}/>
