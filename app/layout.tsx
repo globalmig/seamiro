@@ -7,22 +7,22 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "세미로 | 단무지 · 쌈무 · 치킨무 전문",
-  description: "김밥 단무지 · 쌈무 · 치킨무 · 초절임 무 제작 전문",
+  title: "세미로 | 단무지, 쌈무, 치킨무 전문",
+  description: "김밥 단무지, 쌈무, 치킨무, 초절임 무 제작 전문 업체",
   keywords: [
     '단무지',
     '김밥 단무지',
     '쌈무',
     '치킨무',
-    '무 절임',
+    '무절임',
     '식자재 납품',
     '단무지 제조',
-    '쌈무 제조',
+    '쌈무',
     '세미로'
   ],
   openGraph: {
     title: '세미로',
-    description: '김밥 단무지 · 쌈무 · 치킨무 · 초절임 무 제작 전문',
+    description: '김밥 단무지, 쌈무, 치킨무, 초절임 무 제작 전문 업체',
     url: 'https://www.seamiro.com',
     siteName: '세미로',
     images: [
